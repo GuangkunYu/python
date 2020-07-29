@@ -55,3 +55,17 @@ motorcycles = ['honda', 'yamaha', 'suzuki']
 first_owned = motorcycles.pop(0)
 print(motorcycles)
 print(first_owned)
+
+## remove() 方法：根据元素值删除元素,只能删除第一个指定的值
+motorcycles.remove('suzuki')
+print(motorcycles)
+
+# 组织列表
+## sort() 方法： 对列表进行永久性排序
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.sort()
+print(cars)
+cars.sort(reverse=True)
+print(cars)
+
+## sorted() 方法：对列表进行临时排序
