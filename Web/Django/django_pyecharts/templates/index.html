@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>excel数据可视化工具</title>
+        <script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+    </head>
+    <body>
+        <form action="/dj_echarts/demo/" enctype="multipart/form-data" method="post">
+            {% csrf_token %}
+            <input type="file" name="myfile">
+            <input type="submit" value="上传">
+        </form>
+
+        <br>
+        <br>
+        <br>
+
+        {{ c | safe }}
+    </body>
+</html>
