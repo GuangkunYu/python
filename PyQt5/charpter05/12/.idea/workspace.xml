@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d266dee7-e6dc-420d-96ec-bf26725554a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Demo01/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/.idea/Demo01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/1.窗口与背景基础设置/demo01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/1.窗口与背景基础设置/demo01.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/1.窗口与背景基础设置/demo01_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/1.窗口与背景基础设置/img.qrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/1.窗口与背景基础设置/img_rc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/1.窗口与背景基础设置/图标 (7).ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/2.信号与槽/untitled.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/2.信号与槽/untitled.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/3.多窗口/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/3.多窗口/.idea/3.多窗口.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/3.多窗口/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/3.多窗口/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/3.多窗口/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/3.多窗口/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/3.多窗口/untitled1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/3.多窗口/untitled1.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/3.多窗口/untitled2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/3.多窗口/untitled2.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/3.多窗口/untitled3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/3.多窗口/untitled3.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/3.多窗口/untitled4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/3.多窗口/untitled4.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/image/back.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo01/image/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01/.idea/charpter05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01/untitled.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01/untitled.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02/.idea/02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02/untitled.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02/untitled.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03/.idea/03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03/untitled.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03/untitled.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04/.idea/04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04/untitled.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04/untitled.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05/.idea/05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05/untitled.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05/untitled.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06/.idea/06.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06/untitled.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06/untitled.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07/.idea/07.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07/exit.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07/login.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07/untitled.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07/untitled.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08/untitled.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08/untitled.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09/.idea/09.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09/untitled.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09/untitled.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10/.idea/10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10/untitled.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10/untitled.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11/.idea/11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11/untitled.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11/untitled.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../python基础/SmallTurtle/.idea/SmallTurtle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../python基础/SmallTurtle/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../python基础/SmallTurtle/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../python基础/SmallTurtle/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../python基础/SmallTurtle/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../python基础/SmallTurtle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../python基础/SmallTurtle/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1kfbFMBawLAzkfWXH9WVgDzTmBm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="untitled" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="12" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.untitled" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d266dee7-e6dc-420d-96ec-bf26725554a2" name="Default Changelist" comment="" />
+      <created>1606094487625</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606094487625</updated>
+      <workItem from="1606094488775" duration="727000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/12$untitled.coverage" NAME="untitled Coverage Results" MODIFIED="1606095181968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

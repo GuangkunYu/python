@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4793a5a7-e333-4655-a91d-1393f49eff19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/SmallTurtle.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common_grammar/example1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common_grammar/example2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common_grammar/if_elif_else.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common_grammar/list_method.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common_grammar/word_game_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common_grammar/word_game_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -192,6 +186,8 @@
       <updated>1603337233202</updated>
       <workItem from="1603337236433" duration="7017000" />
       <workItem from="1603711137355" duration="4688000" />
+      <workItem from="1605506789658" duration="816000" />
+      <workItem from="1605611085350" duration="131000" />
     </task>
     <servers />
   </component>
