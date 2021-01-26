@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax的get和post</title>
+</head>
+<body>
+    <button onclick="sendGetMsg();">发送Get请求</button>
+    <button onclick="sendPostMsg();">发送Post请求</button>
+    <div></div>
+    <script>
+        // post请求
+        function sendPostMsg() {
+            // 1、创建一个XMLHttpRequest对象
+            let xhr = new XMLHttpRequest();
+            // 2、调用open()方法打开连接
+            // open方法三个参数：
+            // （1）请求的method
+            // （2）请求url
+            // （3）是否异步，默认值为true，一般这个参数可以不传
+            xhr.open("post", "/api", true);
+
+            xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded");
+            // 3、发送请求
+            xhr.send("username=ajax&age=12");
+            // 4、监听状态的改变
+            xhr.onreadystatechange = function () {
+                // 判断状态值 0-4 五种状态， 4代表最终完成
+                if (xhr.readyState === 4){
+                    // 判断状态码
+                    if (xhr.status === 200){
+                        let resp = JSON.parse(xhr.responseText);
+                        console.log(resp);
+                        document.querySelector("div").innerHTML = `
+                            <h2>username: ${resp.name}</h2>
+                            <h2>age: ${resp.age}</h2>
+                        `
+                    }
+                }
+            }
+        }
+
+        // get请求
+        function sendGetMsg() {
+            // 1、创建一个XMLHttpRequest对象
+            let xhr = new XMLHttpRequest();
+            // 2、调用open()方法打开连接
+            // open方法三个参数：
+            // （1）请求的method
+            // （2）请求url
+            // （3）是否异步，默认值为true，一般这个参数可以不传
+            xhr.open("get", "/api?username=ajax&title=hello", true);
+            // 3、发送请求
+            xhr.send();
+            // 4、监听状态的改变
+            xhr.onreadystatechange = function () {
+                // 判断状态值 0-4 五种状态， 4代表最终完成
+                if (xhr.readyState === 4){
+                    // 判断状态码
+                    if (xhr.status === 200){
+                        let resp = JSON.parse(xhr.responseText);
+                        console.log(resp);
+                        document.querySelector("div").innerHTML = `
+                            <h2>username: ${resp.name}</h2>
+                            <h2>title: ${resp.title}</h2>
+                        `
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax封装2</title>
+    <script src="/static/js/utils.js"></script>
+</head>
+<body>
+<button onclick="sendGetMsg();">发送Get请求</button>
+<button onclick="sendPostMsg();">发送Post请求</button>
+<div></div>
+
+<script>
+    function sendPostMsg() {
+        utils.ajax({
+            method: 'post',
+            url: '/api',
+            query: {
+                "username": "lisi",
+                "age": "30"
+            },
+            isJson: true,
+            callback: function (resp) {
+                document.querySelector("div").innerHTML = `
+                    <h2>username: ${resp.name}</h2>
+                    <h2>age: ${resp.age}</h2>
+                `
+            }
+        })
+    }
+
+    function sendGetMsg() {
+        utils.ajax({
+            method: 'get',
+            url: '/api',
+            query: {
+                "username": "zhangsan",
+                "title": "getRequest"
+            },
+            isJson: true,
+            callback: function (resp) {
+                document.querySelector("div").innerHTML = `
+                    <h2>username: ${resp.name}</h2>
+                    <h2>title: ${resp.title}</h2>
+                `
+            }
+        })
+    }
+</script>
+</body>
+</html>

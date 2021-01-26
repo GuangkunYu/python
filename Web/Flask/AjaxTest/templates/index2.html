@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax封装1</title>
+</head>
+<body>
+<button onclick="sendGetMsg();">发送Get请求</button>
+<button onclick="sendPostMsg();">发送Post请求</button>
+<div></div>
+<script>
+    function sendPostMsg() {
+        query = {
+            "username": "zhangsan",
+            "age": "30"
+        };
+        post('/api', query, function (resp) {
+            console.log(resp);
+            document.querySelector("div").innerHTML = `
+                            <h2>username: ${resp.name}</h2>
+                            <h2>age: ${resp.age}</h2>
+                        `
+        }, true)
+    }
+
+
+    function sendGetMsg() {
+        query = {
+            "username": "zhangsan",
+            "title": "getRequest"
+        };
+        get('/api', query, function (resp) {
+            console.log(resp);
+            document.querySelector("div").innerHTML = `
+                            <h2>username: ${resp.name}</h2>
+                            <h2>title: ${resp.title}</h2>
+                        `
+        }, true)
+    }
+</script>
+<script>
+    // 封装post
+    // url：string，请求的地址
+    // query：object，请求携带的参数
+    // callback：function，成功之后回调
+    // isJson：boolean，是否需要解析json
+    function post(url, query, callback, isJson) {
+        // 如果有参数，先把参数拼接
+        let val = '';
+        if (query) {
+            for (let key in query) {
+                val += `${key}=${query[key]}&`;
+            }
+            // 取出最后多余的&
+            val = val.slice(0, -1);
+        }
+
+        let xhr = new XMLHttpRequest();
+        xhr.open("post", url, true);
+        xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded");
+        xhr.send(val);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4) {
+                if (xhr.status === 200) {
+                    if (isJson === true){
+                        resp = JSON.parse(xhr.responseText);
+                    }else {
+                        resp = xhr.responseText;
+                    }
+                    callback(resp);
+                }
+            }
+        }
+    }
+
+
+
+    // 封装get
+    // url：string，请求的地址
+    // query：object，请求携带的参数
+    // callback：function，成功之后回调
+    // isJson：boolean，是否需要解析json
+    function get(url, query, callback, isJson) {
+        // 如果有参数，先把参数拼接在url后面
+        if (query) {
+            url += '?';
+            for (let key in query) {
+                url += `${key}=${query[key]}&`;
+            }
+            // 取出最后多余的&
+            url = url.slice(0, -1);
+        }
+
+        let xhr = new XMLHttpRequest();
+        xhr.open("get", url, true);
+        xhr.send();
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4) {
+                if (xhr.status === 200) {
+                    if (isJson === true){
+                        resp = JSON.parse(xhr.responseText);
+                    }else {
+                        resp = xhr.responseText;
+                    }
+                    callback(resp);
+                }
+            }
+        }
+    }
+</script>
+</body>
+</html>

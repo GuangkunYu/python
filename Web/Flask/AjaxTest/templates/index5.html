@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>promise封装异步</title>
+    <script src="/static/js/utils.js"></script>
+</head>
+<body>
+<button onclick="sendMsg();">发送请求</button>
+<script>
+    function sendMsg() {
+        query = {
+            "username": "12345",
+            "title": "promise"
+        };
+        // promise好处：把异步代码写成同步形式，不用传回调函数，而是在then里处理成功
+        utils.fetch('/api', query, true).then(function (resp) {
+            console.log(resp)
+        })
+    }
+</script>
+</body>
+</html>
