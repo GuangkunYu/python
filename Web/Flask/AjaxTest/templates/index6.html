@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>段子查询系统</title>
+    <script src="/static/js/utils.js"></script>
+</head>
+<body>
+<ul id="wrap"></ul>
+<script>
+    // 列表接口：https://api.apiopen.top/getJoke
+    // 详情接口：https://api.apiopen.top/getSingleJoke?sid=段子id
+    utils.fetch("https://api.apiopen.top/getJoke", null, true).then(function (resp) {
+        console.log(resp);
+        let html = '';
+        resp.result.forEach(function (item) {
+            html += `
+                <li>
+                    <h3>${item.text}</h3>
+                    <button data-id="${item.sid}">查看作者</button>
+                </li>
+            `
+        });
+        document.querySelector('#wrap').innerHTML = html;
+    });
+
+    document.querySelector("#wrap").onclick = function (e) {
+        let target = e.target;
+        if (target.tagName.toLowerCase() === 'button'){
+            let sid = target.getAttribute('data-id');
+            utils.fetch('https://api.apiopen.top/getSingleJoke',{sid: sid}, true).then(function (resp) {
+                console.log(resp);
+                let name = resp.result.name;
+                let b = document.createElement("b");
+                b.innerHTML = name;
+                target.parentNode.appendChild(b);
+            });
+        }
+    }
+</script>
+</body>
+</html>
